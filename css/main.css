@@ -2,6 +2,47 @@
     color: brown;
 }
 
-.a{
+.profile{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.title{
+    text-align: center;
+    font-size: 16px;
+}
+.content{
+    text-align: center;
+    
+}
+.box{
+    display: block;
+    margin: auto;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: cadetblue;
+    box-shadow: 10px 10px lightblue;
+}
+.top-nav{
+    width: 80%; /* 부모태그의 80% */
+    background-color: coral;
+}
+.left-nav{
+    width: 40%;
+    background-color:cornflowerblue;
+    float:left;
+}
+.right-nav{
+    width: 40%;
+    background-color:blueviolet;
+    float:left;
+}
+.bottom-nav{
+    width: 80%;
+    background-color:darkcyan;
     
 }
