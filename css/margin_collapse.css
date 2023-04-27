@@ -1,0 +1,37 @@
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+     /* background-size: 100%;  /* 사이즈 조정 */
+     background-size: cover; /* 배경사이즈에 이미지를 꽉채워라 */
+    background-repeat: no-repeat; /* 사이즈 조정시 공백부분 채우려고 이미지 반복현상 막음 */
+    /* 이미지크기에 비해 백그라운드 높이가 더 큼*/
+    background-position: center; /* 가운데부터 배경 채워준다 */
+    padding: 1px;
+}
+.main-title{
+    color: white;
+    font-size: 40px; 
+    margin-top: 100px; /* 위에서 패팅1px를 안하면 현재 백그라운드 마진하고
+                       /* Buy Our~ h4 마진하고 겹쳐있어서 결국 
+                       /* margin-top을 줘도 배경과 글씨가 같이 내려감
+                          margin collapse 현상(버그) 
+                          위에서 padding을 약간줘서 떨여뜨려놓고 적용해야함  */
+    text-align: center;
+    /*font-style: italic;*/
+}
+.subscrib{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    /*font-style: italic;*/
+}
+
+.btn_mov{
+    width: 150px;
+    height: 50px;
+    margin:auto;
+    display: block;
+    font-size: 15px;
+    margin-top: 80px;
+}
